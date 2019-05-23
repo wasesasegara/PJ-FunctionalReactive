@@ -1,0 +1,6 @@
+framework module Pods_PJ_FunctionalReactive {
+  umbrella header "Pods-PJ FunctionalReactive-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7286DC077B71E292DCDCC6EB /* Pods_PJ_FunctionalReactive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEEA118F6BAB1CBD2B2A936 /* Pods_PJ_FunctionalReactive.framework */; };
+		EF2B66CE2289626B00C84ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2B66CD2289626B00C84ADC /* AppDelegate.swift */; };
+		EF2B66D52289626E00C84ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2B66D42289626E00C84ADC /* Assets.xcassets */; };
+		EF2B66D82289626E00C84ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2B66D62289626E00C84ADC /* LaunchScreen.storyboard */; };
+		EF2B66E12289632200C84ADC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2B66DF2289632200C84ADC /* MainVC.swift */; };
+		EF2B66E52289686C00C84ADC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2B66E42289686C00C84ADC /* Constant.swift */; };
+		EF723B722289922200DED9F3 /* CommonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF723B712289922200DED9F3 /* CommonHelper.swift */; };
+		EFDD78AC22967E5000939121 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDD78AB22967E5000939121 /* Main.xib */; };
+		EFDD78AE22967FA800939121 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDD78AD22967FA800939121 /* MainView.swift */; };
+		EFE219CD22967ACD001CBEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE219CC22967ACD001CBEF9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FEEA118F6BAB1CBD2B2A936 /* Pods_PJ_FunctionalReactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJ_FunctionalReactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49297791A25C1BB49526D3F4 /* Pods-PJ FunctionalReactive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJ FunctionalReactive.debug.xcconfig"; path = "Target Support Files/Pods-PJ FunctionalReactive/Pods-PJ FunctionalReactive.debug.xcconfig"; sourceTree = "<group>"; };
+		ED66FB3323344274DE2E46C2 /* Pods-PJ FunctionalReactive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJ FunctionalReactive.release.xcconfig"; path = "Target Support Files/Pods-PJ FunctionalReactive/Pods-PJ FunctionalReactive.release.xcconfig"; sourceTree = "<group>"; };
+		EF2B66CA2289626B00C84ADC /* PJ FunctionalReactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PJ FunctionalReactive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2B66CD2289626B00C84ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF2B66D42289626E00C84ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2B66D72289626E00C84ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF2B66D92289626E00C84ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2B66DF2289632200C84ADC /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EF2B66E42289686C00C84ADC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EF723B712289922200DED9F3 /* CommonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHelper.swift; sourceTree = "<group>"; };
+		EFDD78AB22967E5000939121 /* Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		EFDD78AD22967FA800939121 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EFE219CC22967ACD001CBEF9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2B66C72289626B00C84ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7286DC077B71E292DCDCC6EB /* Pods_PJ_FunctionalReactive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097EEFA878989B0B35A42250 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49297791A25C1BB49526D3F4 /* Pods-PJ FunctionalReactive.debug.xcconfig */,
+				ED66FB3323344274DE2E46C2 /* Pods-PJ FunctionalReactive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		410D68C6B849A55371C635C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FEEA118F6BAB1CBD2B2A936 /* Pods_PJ_FunctionalReactive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF2B66C12289626B00C84ADC = {
+			isa = PBXGroup;
+			children = (
+				EF2B66CC2289626B00C84ADC /* PJ FunctionalReactive */,
+				EF2B66CB2289626B00C84ADC /* Products */,
+				097EEFA878989B0B35A42250 /* Pods */,
+				410D68C6B849A55371C635C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2B66CB2289626B00C84ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B66CA2289626B00C84ADC /* PJ FunctionalReactive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2B66CC2289626B00C84ADC /* PJ FunctionalReactive */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B66E32289685200C84ADC /* Common */,
+				EF2B66CD2289626B00C84ADC /* AppDelegate.swift */,
+				EF2B66D42289626E00C84ADC /* Assets.xcassets */,
+				EF2B66D62289626E00C84ADC /* LaunchScreen.storyboard */,
+				EF2B66D92289626E00C84ADC /* Info.plist */,
+				EF2B66DF2289632200C84ADC /* MainVC.swift */,
+				EFDD78AD22967FA800939121 /* MainView.swift */,
+				EFDD78AB22967E5000939121 /* Main.xib */,
+				EFE219CC22967ACD001CBEF9 /* Main.storyboard */,
+			);
+			path = "PJ FunctionalReactive";
+			sourceTree = "<group>";
+		};
+		EF2B66E32289685200C84ADC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EF2B66E42289686C00C84ADC /* Constant.swift */,
+				EF723B712289922200DED9F3 /* CommonHelper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2B66C92289626B00C84ADC /* PJ FunctionalReactive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2B66DC2289626E00C84ADC /* Build configuration list for PBXNativeTarget "PJ FunctionalReactive" */;
+			buildPhases = (
+				20CF07D8E307C41CBE22916D /* [CP] Check Pods Manifest.lock */,
+				EF2B66C62289626B00C84ADC /* Sources */,
+				EF2B66C72289626B00C84ADC /* Frameworks */,
+				EF2B66C82289626B00C84ADC /* Resources */,
+				9A55808D16AF80D2A8EC370F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PJ FunctionalReactive";
+			productName = "PJ FunctionalReactive";
+			productReference = EF2B66CA2289626B00C84ADC /* PJ FunctionalReactive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2B66C22289626B00C84ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bisma S Wasesasegara";
+				TargetAttributes = {
+					EF2B66C92289626B00C84ADC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EF2B66C52289626B00C84ADC /* Build configuration list for PBXProject "PJ FunctionalReactive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2B66C12289626B00C84ADC;
+			productRefGroup = EF2B66CB2289626B00C84ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2B66C92289626B00C84ADC /* PJ FunctionalReactive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2B66C82289626B00C84ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDD78AC22967E5000939121 /* Main.xib in Resources */,
+				EFE219CD22967ACD001CBEF9 /* Main.storyboard in Resources */,
+				EF2B66D82289626E00C84ADC /* LaunchScreen.storyboard in Resources */,
+				EF2B66D52289626E00C84ADC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20CF07D8E307C41CBE22916D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PJ FunctionalReactive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A55808D16AF80D2A8EC370F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PJ FunctionalReactive/Pods-PJ FunctionalReactive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PJ FunctionalReactive/Pods-PJ FunctionalReactive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2B66C62289626B00C84ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2B66E12289632200C84ADC /* MainVC.swift in Sources */,
+				EF723B722289922200DED9F3 /* CommonHelper.swift in Sources */,
+				EF2B66CE2289626B00C84ADC /* AppDelegate.swift in Sources */,
+				EFDD78AE22967FA800939121 /* MainView.swift in Sources */,
+				EF2B66E52289686C00C84ADC /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF2B66D62289626E00C84ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2B66D72289626E00C84ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2B66DA2289626E00C84ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF2B66DB2289626E00C84ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2B66DD2289626E00C84ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49297791A25C1BB49526D3F4 /* Pods-PJ FunctionalReactive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QY3HCSBXC;
+				INFOPLIST_FILE = "PJ FunctionalReactive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wasesasegara.PJ-FunctionalReactive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2B66DE2289626E00C84ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED66FB3323344274DE2E46C2 /* Pods-PJ FunctionalReactive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QY3HCSBXC;
+				INFOPLIST_FILE = "PJ FunctionalReactive/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wasesasegara.PJ-FunctionalReactive";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2B66C52289626B00C84ADC /* Build configuration list for PBXProject "PJ FunctionalReactive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2B66DA2289626E00C84ADC /* Debug */,
+				EF2B66DB2289626E00C84ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2B66DC2289626E00C84ADC /* Build configuration list for PBXNativeTarget "PJ FunctionalReactive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2B66DD2289626E00C84ADC /* Debug */,
+				EF2B66DE2289626E00C84ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2B66C22289626B00C84ADC /* Project object */;
+}
